@@ -21,3 +21,5 @@ dist/** -text
 template-manifest.json -text
 package.json -text
 release.json -text
+# Signed release roots: what git checks out must be the hashed bytes (sign-template-repo.mjs).
+template-catalog.json -text
