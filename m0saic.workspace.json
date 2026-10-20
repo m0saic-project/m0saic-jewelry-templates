@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "handle": "@jewelry",
+  "displayName": "Jewelry Templates",
+  "createdBy": "cli",
+  "createdAtMs": 1792528361444,
+  "starter": {
+    "sha": null
+  }
+}

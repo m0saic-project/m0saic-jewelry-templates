@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "repo": {
+    "repoId": "@jewelry",
+    "displayName": "Jewelry Templates",
+    "schemaVersion": 1,
+    "description": "Templates for Mosaic for Jewelry, the m0saic Desktop solution for jewelers: pick a design, drop in your photos, make the video. Each release is a signed bundle that Desktop installs on its own.",
+    "curator": "m0saic",
+    "homepage": "https://github.com/m0saic-project/m0saic-jewelry-templates",
+    "assets": {
+      "templatesDir": "assets/templates",
+      "samplesDir": "samples"
+    },
+    "conventions": "0.3.1"
+  },
+  "entryModule": "./dist/index.js",
+  "templates": [
+    {
+      "slug": "product-spotlight",
+      "templateKey": "@jewelry/social/product-spotlight/v1",
+      "title": "01 · Product Spotlight",
+      "description": "One piece, one social ad: your photo or clip fills its side of the frame, and the name, the metal and stone, the price and where to go sit beside it. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+      "tags": [
+        "jewelry",
+        "social",
+        "ad",
+        "product",
+        "new-arrival",
+        "instagram",
+        "story",
+        "reel",
+        "data-driven",
+        "video",
+        "photo-led"
+      ],
+      "pack": "social",
+      "preview": {
+        "image": "assets/templates/@jewelry__social__product-spotlight__v1/preview.png",
+        "video": "assets/templates/@jewelry__social__product-spotlight__v1/preview.mp4",
+        "poster": "assets/templates/@jewelry__social__product-spotlight__v1/poster.png"
+      }
+    }
+  ],
+  "packs": [
+    {
+      "id": "social",
+      "title": "Social",
+      "description": "Posts, stories and reels: one piece, one ad, your photo or clip at the centre."
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+ "note": "The @jewelry starter pack: what an EMPTY media slot shows (never clip art) and what the catalog previews are rendered with. Free for commercial use, no attribution required (Pexels License / CC0) - credited here anyway. Built by the founder's session from CLEAN_ROOM_SOURCE.",
+ "items": [
+  {
+   "key": "ring-solitaire",
+   "file": "ring-solitaire.jpg",
+   "kind": "image",
+   "roles": [
+    "ring",
+    "product",
+    "engagement"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "solitaire",
+    "stone": "diamond",
+    "metal": "white",
+    "name": "Diamond Solitaire Ring"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Macro Photography of an Expensive Diamond Ring",
+    "creator": "The Glorious  Studio ",
+    "pageUrl": "https://www.pexels.com/photo/macro-photography-of-an-expensive-diamond-ring-9953654/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 176981
+  },
+  {
+   "key": "ring-bands",
+   "file": "ring-bands.jpg",
+   "kind": "image",
+   "roles": [
+    "band",
+    "ring"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "wedding bands",
+    "stone": "none",
+    "metal": "yellow",
+    "name": "Classic Gold Wedding Bands"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Elegant Gold Wedding Rings on Marble Surface",
+    "creator": "Bruno Mattos",
+    "pageUrl": "https://www.pexels.com/photo/elegant-gold-wedding-rings-on-marble-surface-30206324/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 84552
+  },
+  {
+   "key": "ring-emerald",
+   "file": "ring-emerald.jpg",
+   "kind": "image",
+   "roles": [
+    "ring",
+    "coloured"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "cluster",
+    "stone": "emerald",
+    "metal": "white",
+    "name": "Emerald Flower Cluster Ring"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Elegant Emerald Ring with Diamond Accents",
+    "creator": "Abdulla Nasar",
+    "pageUrl": "https://www.pexels.com/photo/elegant-emerald-ring-with-diamond-accents-29495766/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 114375
+  },
+  {
+   "key": "earrings-studs",
+   "file": "earrings-studs.jpg",
+   "kind": "image",
+   "roles": [
+    "earrings",
+    "product"
+   ],
+   "look": {
+    "piece": "earrings",
+    "style": "studs",
+    "stone": "diamond",
+    "metal": "yellow",
+    "name": "Three-Prong Diamond Stud Earrings"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Elegant Gold and Diamond Stud Earrings Close-up",
+    "creator": "HEMANT SAINI",
+    "pageUrl": "https://www.pexels.com/photo/elegant-gold-and-diamond-stud-earrings-close-up-35961143/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 302789
+  },
+  {
+   "key": "earrings-drops",
+   "file": "earrings-drops.jpg",
+   "kind": "image",
+   "roles": [
+    "earrings"
+   ],
+   "look": {
+    "piece": "earrings",
+    "style": "drops",
+    "stone": "diamond",
+    "metal": "rose",
+    "name": "Diamond Cluster Teardrop Earrings"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Elegant Diamond and Rose Gold Teardrop Earrings",
+    "creator": "The Glorious  Studio ",
+    "pageUrl": "https://www.pexels.com/photo/elegant-diamond-and-rose-gold-teardrop-earrings-40179572/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 107684
+  },
+  {
+   "key": "pendant-emerald",
+   "file": "pendant-emerald.jpg",
+   "kind": "image",
+   "roles": [
+    "necklace",
+    "coloured"
+   ],
+   "look": {
+    "piece": "pendant",
+    "style": "halo",
+    "stone": "emerald",
+    "metal": "white",
+    "name": "Emerald Halo Pendant"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Silver-colored Pendant With Green Gemstone",
+    "creator": "Engin Akyurt",
+    "pageUrl": "https://www.pexels.com/photo/silver-colored-pendant-with-green-gemstone-1458867/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 233668
+  },
+  {
+   "key": "necklace-bar",
+   "file": "necklace-bar.jpg",
+   "kind": "image",
+   "roles": [
+    "necklace",
+    "product"
+   ],
+   "look": {
+    "piece": "necklace",
+    "style": "bar pendant",
+    "stone": "unclear",
+    "metal": "rose",
+    "name": "Heart Drop Bar Necklace"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "A Necklace with Diamond Studs",
+    "creator": "The Glorious  Studio ",
+    "pageUrl": "https://www.pexels.com/photo/a-necklace-with-diamond-studs-13204122/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 92660
+  },
+  {
+   "key": "necklaces-worn",
+   "file": "necklaces-worn.jpg",
+   "kind": "image",
+   "roles": [
+    "necklace",
+    "worn"
+   ],
+   "look": {
+    "piece": "necklace",
+    "style": "layered chains",
+    "stone": "unclear",
+    "metal": "yellow",
+    "name": "Layered Gold Chain Necklaces"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Close-Up Shot of a Person Wearing Gold Necklaces",
+    "creator": "Gökhan Yetimova",
+    "pageUrl": "https://www.pexels.com/photo/close-up-shot-of-a-person-wearing-gold-necklaces-13924051/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 272942
+  },
+  {
+   "key": "bracelet-tennis",
+   "file": "bracelet-tennis.jpg",
+   "kind": "image",
+   "roles": [
+    "bracelet",
+    "product"
+   ],
+   "look": {
+    "piece": "bracelet",
+    "style": "tennis",
+    "stone": "diamond",
+    "metal": "white",
+    "name": "Diamond Tennis Bracelet"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Elegant Silver Bracelet on Textured Leaf",
+    "creator": "Amazing Clicks by Arjun",
+    "pageUrl": "https://www.pexels.com/photo/elegant-silver-bracelet-on-textured-leaf-33343078/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 311423
+  },
+  {
+   "key": "loose-diamond",
+   "file": "loose-diamond.jpg",
+   "kind": "image",
+   "roles": [
+    "gem",
+    "diamond"
+   ],
+   "look": {
+    "piece": "loose-stone",
+    "style": "",
+    "stone": "diamond",
+    "metal": "unclear",
+    "name": "Heart-Shaped Diamond"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Heart Shaped Diamond Held in Tweezers",
+    "creator": "Arjiv Exports",
+    "pageUrl": "https://www.pexels.com/video/heart-shaped-diamond-held-in-tweezers-5327599/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 45812
+  },
+  {
+   "key": "jeweler-bench",
+   "file": "jeweler-bench.jpg",
+   "kind": "image",
+   "roles": [
+    "person",
+    "process"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "",
+    "stone": "emerald",
+    "metal": "unclear",
+    "name": "Emerald Ring at the Bench"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "A Jeweler Handling an Emerald",
+    "creator": "Tima Miroshnichenko",
+    "pageUrl": "https://www.pexels.com/photo/a-jeweler-handling-an-emerald-6263157/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 101643
+  },
+  {
+   "key": "band-before",
+   "file": "band-before.jpg",
+   "kind": "image",
+   "roles": [
+    "before",
+    "process"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "band",
+    "stone": "unclear",
+    "metal": "rose",
+    "name": "Wide Rose Gold Band"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Close Up Photo of Person Designing a Ring",
+    "creator": "Tima Miroshnichenko",
+    "pageUrl": "https://www.pexels.com/photo/close-up-photo-of-person-designing-a-ring-6262835/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 68204
+  },
+  {
+   "key": "band-after",
+   "file": "band-after.jpg",
+   "kind": "image",
+   "roles": [
+    "after",
+    "process"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "band",
+    "stone": "unclear",
+    "metal": "rose",
+    "name": "Bench-Finished Rose Gold Band"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Person Designing a Gold Ring",
+    "creator": "Tima Miroshnichenko",
+    "pageUrl": "https://www.pexels.com/photo/person-designing-a-gold-ring-6263060/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 75187
+  },
+  {
+   "key": "store-bands",
+   "file": "store-bands.jpg",
+   "kind": "image",
+   "roles": [
+    "store",
+    "event"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "plain band",
+    "stone": "none",
+    "metal": "mixed",
+    "name": "Wedding Band Selection"
+   },
+   "credit": {
+    "source": "stocksnap",
+    "title": "Still Items",
+    "creator": "WDnet Studio",
+    "pageUrl": "https://stocksnap.io/photo/still-items-9RIM3ATOJU",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+   },
+   "bytes": 240040
+  },
+  {
+   "key": "clip-solitaires",
+   "file": "clip-solitaires.mp4",
+   "kind": "video",
+   "roles": [
+    "ring",
+    "clip"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "solitaire",
+    "stone": "diamond",
+    "metal": "mixed",
+    "name": "Oval & Emerald-Cut Solitaires"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Elegant Diamond Rings Reflecting Light",
+    "creator": "Kat IE",
+    "pageUrl": "https://www.pexels.com/video/elegant-diamond-rings-reflecting-light-34369898/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 5104232
+  },
+  {
+   "key": "clip-diamond",
+   "file": "clip-diamond.mp4",
+   "kind": "video",
+   "roles": [
+    "gem",
+    "clip"
+   ],
+   "look": {
+    "piece": "loose-stone",
+    "style": "",
+    "stone": "diamond",
+    "metal": "unclear",
+    "name": "Heart-Shaped Diamond"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Heart Shaped Diamond Held in Tweezers",
+    "creator": "Arjiv Exports",
+    "pageUrl": "https://www.pexels.com/video/heart-shaped-diamond-held-in-tweezers-5327599/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 829598
+  },
+  {
+   "key": "clip-pearls",
+   "file": "clip-pearls.mp4",
+   "kind": "video",
+   "roles": [
+    "necklace",
+    "worn",
+    "clip"
+   ],
+   "look": {
+    "piece": "necklace",
+    "style": "multi-strand pearls",
+    "stone": "pearl",
+    "metal": "unclear",
+    "name": "Multi-Strand Pearl Necklace"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Model Wearing Pearl Jewelries",
+    "creator": "cottonbro studio",
+    "pageUrl": "https://www.pexels.com/video/model-wearing-pearl-jewelries-9421508/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 1310060
+  },
+  {
+   "key": "clip-bench",
+   "file": "clip-bench.mp4",
+   "kind": "video",
+   "roles": [
+    "process",
+    "person",
+    "clip"
+   ],
+   "look": {
+    "piece": "ring",
+    "style": "",
+    "stone": "none",
+    "metal": "white",
+    "name": "Ring Sizing at the Bench"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "Woman Measuring Rings Size With Pachymeter",
+    "creator": "Tima Miroshnichenko",
+    "pageUrl": "https://www.pexels.com/video/woman-measuring-rings-size-with-pachymeter-6263172/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 1175499
+  }
+ ]
+}

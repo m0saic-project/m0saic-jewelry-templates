@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "templateId": "@jewelry/social/product-spotlight/v1",
+  "label": "01 · Product Spotlight",
+  "description": "One piece, one social ad: your photo or clip fills its side of the frame, and the name, the metal and stone, the price and where to go sit beside it. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+  "tags": [
+    "jewelry",
+    "social",
+    "ad",
+    "product",
+    "new-arrival",
+    "instagram",
+    "story",
+    "reel",
+    "data-driven",
+    "video",
+    "photo-led"
+  ],
+  "props": {
+    "platform": {
+      "label": "Platform",
+      "description": "Where the clip is going; sets the canvas when the resolution is left locked to the template. story 9:16, feed 4:5, square 1:1, landscape 16:9, email 2:1 (a 1200x600 hero). An explicit width and height still win.",
+      "placeholder": "story",
+      "order": 1
+    },
+    "brandName": {
+      "label": "Brand",
+      "description": "The small wordmark on every frame. A logo replaces it on the canvas. Required.",
+      "placeholder": "Maison Lumen",
+      "order": 2
+    },
+    "brandLogo": {
+      "label": "Brand logo",
+      "description": "Zero or one logo in place of the wordmark: an image or a short muted looping video. Empty draws the brand name.",
+      "order": 3
+    },
+    "brandLogoRegion": {
+      "label": "Brand logo area",
+      "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+      "order": 4
+    },
+    "brandLogoFit": {
+      "label": "Brand logo fit",
+      "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+      "order": 5
+    },
+    "kicker": {
+      "label": "Kicker",
+      "description": "The short line above the name, in the accent: a collection, a season, a reason. Empty removes it.",
+      "placeholder": "New in bridal",
+      "order": 6
+    },
+    "productName": {
+      "label": "Piece",
+      "description": "The name of the piece, large, from the first frame. Required.",
+      "placeholder": "The Aurelia Solitaire",
+      "order": 7
+    },
+    "metalLabel": {
+      "label": "Metal",
+      "description": "The metal as it should read, the first half of the spec line. Empty removes it.",
+      "placeholder": "18K White Gold",
+      "order": 8
+    },
+    "stoneLabel": {
+      "label": "Stone",
+      "description": "The stone as it should read - carat, cut, kind - the second half of the spec line. Empty removes it.",
+      "placeholder": "Diamond solitaire, four prongs",
+      "order": 9
+    },
+    "price": {
+      "label": "Price",
+      "description": "The price as a number; drawn large on the last beat with thousands separators. 0 removes the price.",
+      "placeholder": "5600",
+      "order": 10
+    },
+    "currency": {
+      "label": "Currency",
+      "description": "The symbol before the price.",
+      "placeholder": "$",
+      "order": 11
+    },
+    "ctaLabel": {
+      "label": "Call to action",
+      "description": "What to do next, under the price. Empty removes it.",
+      "placeholder": "Book a private viewing",
+      "order": 12
+    },
+    "ctaUrl": {
+      "label": "Link",
+      "description": "Where to go, under the call to action. Empty removes it.",
+      "placeholder": "maisonlumen.example/aurelia",
+      "order": 13
+    },
+    "productArt": {
+      "label": "Bundled art",
+      "description": "Which illustration stands in when there is no product shot: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. Tinted by Metal tone and Stone tone. (Drawn only if the starter pack is missing.)",
+      "placeholder": "solitaire",
+      "order": 14
+    },
+    "metal": {
+      "label": "Metal tone",
+      "description": "The metal the bundled art is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+      "placeholder": "gold",
+      "order": 15
+    },
+    "stone": {
+      "label": "Stone tone",
+      "description": "The stone the bundled art is drawn with: diamond, sapphire, ruby, emerald, amethyst, aquamarine, pearl, morganite, citrine, garnet, peridot, opal, topaz or tanzanite. (Drawn only if the starter pack is missing.)",
+      "placeholder": "diamond",
+      "order": 16
+    },
+    "productImage": {
+      "label": "Photo or clip",
+      "description": "Zero or one photo or short clip. It is the hero: cover-cropped to fill its side of the frame, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+      "order": 17
+    },
+    "productImageRegion": {
+      "label": "Photo or clip area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 18
+    },
+    "productImageFit": {
+      "label": "Photo or clip fit",
+      "description": "cover fills the photo's area and crops what spills over; contain shows all of it inside the area, the page around it. Default: cover.",
+      "order": 19
+    },
+    "theme": {
+      "label": "Theme",
+      "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+      "placeholder": "ivory",
+      "order": 20
+    },
+    "accent": {
+      "label": "Accent",
+      "description": "The brand colour as #rrggbb: the card tint, the kicker, the price and the progress line.",
+      "order": 21
+    },
+    "background": {
+      "label": "Background",
+      "description": "The page colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 22
+    },
+    "ink": {
+      "label": "Text",
+      "description": "The text colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 23
+    },
+    "durationSec": {
+      "label": "Length (s)",
+      "description": "Clip length in whole seconds, 4 to 30. The three beats keep their shares; an explicit duration pin overrides it.",
+      "placeholder": "8",
+      "order": 24
+    },
+    "debugLayout": {
+      "label": "Debug layout",
+      "description": "Dev-only: check the layout contract (every line fits its box, the card stays square) and draw it over the frame.",
+      "order": 25
+    }
+  }
+}

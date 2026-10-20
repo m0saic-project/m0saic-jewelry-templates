@@ -1,0 +1,25 @@
+{
+  "$comment": "Everything template code may import. Mirrors the platform's TEMPLATE_REPO_DEP_ALLOWLIST — the set of packages a Mosaic host resolves for external repos. Enforced by tools/check-deps.mjs (pure Node, no install needed). Per-file exceptions carry a reason.",
+  "packages": [
+    "@m0saic/types",
+    "@m0saic/template-utils",
+    "@m0saic/dsl-stdlib",
+    "@m0saic/platform",
+    "@m0saic/dsl",
+    "sharp",
+    "@twemoji/svg"
+  ],
+  "builtins": ["node:path", "path"],
+  "exceptions": [
+    {
+      "file": "src/gen-template-manifest.ts",
+      "allow": ["node:fs"],
+      "reason": "Build-time generator, not template code — reads preview assets and writes template-manifest.json."
+    },
+    {
+      "file": "src/_shared/starter.ts",
+      "allow": ["node:fs"],
+      "reason": "Starter media: the existence probe for the bundled starter pack (a missing file degrades to the template's own stand-in, never an error mosaic) — the same probe template-utils' starterMedia runs."
+    }
+  ]
+}

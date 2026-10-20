@@ -1,0 +1,30 @@
+# Lane A — policy + loader-contract checks against the COMMITTED artifacts.
+# Pure Node, no npm install: works on a bare clone, because dist/ and
+# template-manifest.json are committed and tools/*.mjs use only builtins.
+#
+# The signed-release lane (tools/verify-release.mjs against keys/) arrives
+# with the first signed mint — see docs/publish.md.
+name: ci
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+jobs:
+  policy:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Dependency + pack policy
+        run: node tools/check-deps.mjs
+      - name: Loader contract (committed dist + manifest)
+        run: node tools/contract-check.mjs

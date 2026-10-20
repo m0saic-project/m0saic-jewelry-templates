@@ -1,0 +1,16 @@
+{
+  "templateId": "@jewelry/social/product-spotlight/v1",
+  "note": "Rendered at the template's defaults: every image is from the @jewelry starter pack (src/_shared/assets/starter), free for commercial use, no attribution required - credited here anyway.",
+  "sources": [
+    {
+      "slot": "productImage",
+      "starter": "ring-solitaire",
+      "source": "pexels",
+      "title": "Macro Photography of an Expensive Diamond Ring",
+      "creator": "The Glorious  Studio ",
+      "pageUrl": "https://www.pexels.com/photo/macro-photography-of-an-expensive-diamond-ring-9953654/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  ]
+}

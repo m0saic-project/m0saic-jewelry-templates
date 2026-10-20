@@ -1,0 +1,198 @@
+{
+  "industry": "jewelry",
+  "note": "Sample media for trying the Mosaic for Jewelry templates in Mosaic Desktop: real jewelry, free for commercial use under the Pexels License, no attribution required - credited here anyway. Jewelers bring their own photos; these are a start. goodFor = template id + the media slot it reads best in.",
+  "items": [
+    {
+      "file": "diamond-studs.jpg",
+      "kind": "image",
+      "title": "Diamond solitaire stud earrings",
+      "shows": "A pair of round diamond studs in six-prong settings on a black surface.",
+      "width": 2400,
+      "height": 3595,
+      "bytes": 374402,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Elegant Diamond Stud Earrings on Black Surface",
+        "creator": "MYSH Jewelry",
+        "creatorUrl": "https://www.pexels.com/@mysh/",
+        "pageUrl": "https://www.pexels.com/photo/elegant-diamond-stud-earrings-on-black-surface-39076778/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "eternity-band.jpg",
+      "kind": "image",
+      "title": "Diamond eternity band",
+      "shows": "A gold eternity band set all round with diamonds, on a white sculpted set.",
+      "width": 2400,
+      "height": 3595,
+      "bytes": 285700,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Elegant Diamond Ring on Minimalist Background",
+        "creator": "Jana Kukebal",
+        "creatorUrl": "https://www.pexels.com/@janakukebal/",
+        "pageUrl": "https://www.pexels.com/photo/elegant-diamond-ring-on-minimalist-background-30541170/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "gold-hoops.jpg",
+      "kind": "image",
+      "title": "Twisted gold hoop earrings",
+      "shows": "Oval twisted gold hoops resting in lilac blossoms.",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 569933,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Gold Hoop Earrings on Flowers",
+        "creator": "Ioana Motoc",
+        "creatorUrl": "https://www.pexels.com/@ioanamtc/",
+        "pageUrl": "https://www.pexels.com/photo/gold-hoop-earrings-on-flowers-12452943/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "snake-bangle.jpg",
+      "kind": "image",
+      "title": "Pave snake bangle in its gift box",
+      "shows": "A gold snake bangle with a pave head, on the cushion of an open gift box.",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 379168,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Elegant Gold Bracelet with Diamonds in Gift Box",
+        "creator": "Salim Da",
+        "creatorUrl": "https://www.pexels.com/@svliiim/",
+        "pageUrl": "https://www.pexels.com/photo/elegant-gold-bracelet-with-diamonds-in-gift-box-34399115/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "emerald-ring-worn.jpg",
+      "kind": "image",
+      "title": "Emerald ring and pendant, worn",
+      "shows": "A hand wearing a small emerald ring, an emerald pendant at the collar - jewelry as it is worn.",
+      "width": 2400,
+      "height": 1603,
+      "bytes": 240382,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Elegant Jewelry with Emerald Ring and Necklace",
+        "creator": "Jing Chang",
+        "creatorUrl": "https://www.pexels.com/@jing-chang-554385138/",
+        "pageUrl": "https://www.pexels.com/photo/elegant-jewelry-with-emerald-ring-and-necklace-31642922/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "necklace-worn.jpg",
+      "kind": "image",
+      "title": "Gold chain choker, worn",
+      "shows": "A gold chain choker at the collarbone, hands framing it, on a soft pink set - the face out of frame.",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 203808,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "A Woman in White Off Shoulder Shirt Wearing Necklaces",
+        "creator": "RDNE Stock project",
+        "creatorUrl": "https://www.pexels.com/@rdne/",
+        "pageUrl": "https://www.pexels.com/photo/a-woman-in-white-off-shoulder-shirt-wearing-necklaces-8184255/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "solitaire-ring.mp4",
+      "kind": "video",
+      "title": "Diamond solitaire ring (clip)",
+      "shows": "A slow close-up across a diamond solitaire in warm bench light.",
+      "width": 1920,
+      "height": 1080,
+      "durationSec": 6.1,
+      "bytes": 4013695,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Close Up Shot of a Diamond Ring",
+        "creator": "Tima Miroshnichenko",
+        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko/",
+        "pageUrl": "https://www.pexels.com/video/close-up-shot-of-a-diamond-ring-6262753/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "emerald-pendant.mp4",
+      "kind": "video",
+      "title": "Emerald pear pendant (clip)",
+      "shows": "A pear-cut emerald in a gold halo pendant, on the bench block.",
+      "width": 1920,
+      "height": 1080,
+      "durationSec": 12.8,
+      "bytes": 5913090,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Emerald Stone on a Pendant",
+        "creator": "Tima Miroshnichenko",
+        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko/",
+        "pageUrl": "https://www.pexels.com/video/emerald-stone-on-a-pendant-6262755/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    },
+    {
+      "file": "bench-setting.mp4",
+      "kind": "video",
+      "title": "Setting a pear halo at the bench (clip)",
+      "shows": "A jeweler drilling the seats of a pear halo mounting - the making of a piece.",
+      "width": 1920,
+      "height": 1080,
+      "durationSec": 13.3,
+      "bytes": 4118913,
+      "goodFor": [
+        "@jewelry/social/product-spotlight/v1 productImage"
+      ],
+      "credit": {
+        "source": "pexels",
+        "title": "Person Making a Hole on a Jewelry",
+        "creator": "Tima Miroshnichenko",
+        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko/",
+        "pageUrl": "https://www.pexels.com/video/person-making-a-hole-on-a-jewelry-6262756/",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      }
+    }
+  ]
+}

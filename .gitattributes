@@ -1,0 +1,23 @@
+# LF everywhere so dist/ built on Windows and macOS diffs clean against the
+# committed copy (tsconfig also sets "newLine": "lf"). Binaries opt out.
+* text=auto eol=lf
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.mp4 -text
+*.m4v -text
+*.mov -text
+*.mkv -text
+*.webm -text
+*.mp3 -text
+*.wav -text
+*.woff -text
+*.woff2 -text
+*.ttf -text
+*.otf -text
+# Signed release roots: what git checks out must be the hashed bytes (sign-template-repo.mjs).
+dist/** -text
+template-manifest.json -text
+package.json -text
+release.json -text

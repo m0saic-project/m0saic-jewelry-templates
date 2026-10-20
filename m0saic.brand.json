@@ -1,0 +1,11 @@
+{
+  "$comment": "What Mosaic for Jewelry asks a jeweler to fill in once (Your shop on the Templates page), and which template props take it. The keys are the app's own fields (name, logo, accent, site, platform), so no custom field is declared. Read by Mosaic Desktop when this repo loads; the CLI ignores it.",
+  "fields": [],
+  "props": {
+    "brandName": "name",
+    "brandLogo": "logo",
+    "accent": "accent",
+    "ctaUrl": "site",
+    "platform": "platform"
+  }
+}
