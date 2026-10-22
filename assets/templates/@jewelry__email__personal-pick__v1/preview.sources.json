@@ -1,0 +1,16 @@
+{
+  "templateId": "@jewelry/email/personal-pick/v1",
+  "note": "Rendered at the template's defaults: every image is from the @jewelry starter pack (src/_shared/assets/starter), free for commercial use, no attribution required - credited here anyway.",
+  "sources": [
+    {
+      "slot": "productImage",
+      "starter": "pendant-emerald",
+      "source": "pexels",
+      "title": "Silver-colored Pendant With Green Gemstone",
+      "creator": "Engin Akyurt",
+      "pageUrl": "https://www.pexels.com/photo/silver-colored-pendant-with-green-gemstone-1458867/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  ]
+}

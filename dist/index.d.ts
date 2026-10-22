@@ -5,4 +5,6 @@ import { TEMPLATE_PACKS, TEMPLATE_REPO } from "./repo";
 export declare const repo: import("@m0saic/types").MosaicTemplateRepoDescriptor;
 export declare const templates: MosaicTemplate<MosaicTemplateProps>[];
 export * from "./social";
+export * from "./email";
+export * from "./print";
 export { TEMPLATE_PACKS, TEMPLATE_REPO };

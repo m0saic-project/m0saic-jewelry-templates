@@ -11,7 +11,9 @@
       "height": 3595,
       "bytes": 374402,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/print/window-card/v1 productImage",
+        "@jewelry/social/new-arrivals/v1 item2Image"
       ],
       "credit": {
         "source": "pexels",
@@ -32,7 +34,9 @@
       "height": 3595,
       "bytes": 285700,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/print/window-card/v1 productImage",
+        "@jewelry/social/new-arrivals/v1 item1Image"
       ],
       "credit": {
         "source": "pexels",
@@ -53,7 +57,9 @@
       "height": 3600,
       "bytes": 569933,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/social/new-arrivals/v1 item2Image",
+        "@jewelry/email/personal-pick/v1 productImage"
       ],
       "credit": {
         "source": "pexels",
@@ -74,7 +80,9 @@
       "height": 3600,
       "bytes": 379168,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/social/new-arrivals/v1 item3Image",
+        "@jewelry/email/personal-pick/v1 productImage"
       ],
       "credit": {
         "source": "pexels",
@@ -95,7 +103,8 @@
       "height": 1603,
       "bytes": 240382,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/email/personal-pick/v1 productImage"
       ],
       "credit": {
         "source": "pexels",
@@ -116,7 +125,8 @@
       "height": 1600,
       "bytes": 203808,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/social/new-arrivals/v1 item4Image"
       ],
       "credit": {
         "source": "pexels",
@@ -138,7 +148,8 @@
       "durationSec": 6.1,
       "bytes": 4013695,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/social/piece-reel/v1 clip1"
       ],
       "credit": {
         "source": "pexels",
@@ -160,7 +171,9 @@
       "durationSec": 12.8,
       "bytes": 5913090,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/social/piece-reel/v1 clip2",
+        "@jewelry/email/personal-pick/v1 productImage"
       ],
       "credit": {
         "source": "pexels",
@@ -182,7 +195,8 @@
       "durationSec": 13.3,
       "bytes": 4118913,
       "goodFor": [
-        "@jewelry/social/product-spotlight/v1 productImage"
+        "@jewelry/social/product-spotlight/v1 productImage",
+        "@jewelry/social/piece-reel/v1 clip3"
       ],
       "credit": {
         "source": "pexels",

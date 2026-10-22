@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "templateId": "@jewelry/social/new-arrivals/v1",
+  "label": "03 · New Arrivals",
+  "description": "The weekly drop: how many new pieces came in, when they go out, and up to four of them as one mosaic of your photos - two side by side, three as one large and two small, four as a 2x2 - arriving one by one, the names and where to look beside them. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, real pieces from the starter pack stand in, never clip art.",
+  "tags": [
+    "jewelry",
+    "social",
+    "new-arrivals",
+    "drop",
+    "restock",
+    "weekly",
+    "feed",
+    "instagram",
+    "data-driven",
+    "video",
+    "photo-led"
+  ],
+  "props": {
+    "platform": {
+      "label": "Platform",
+      "description": "Where the clip is going: feed 4:5 by default; story 9:16 and square 1:1 re-flow; landscape 16:9 and email 2:1 put the count beside the pieces. Sets the canvas when the resolution is left locked to the template.",
+      "placeholder": "feed",
+      "order": 1
+    },
+    "brandName": {
+      "label": "Brand",
+      "description": "The small wordmark on every frame. A logo replaces it. Required.",
+      "placeholder": "Maison Lumen",
+      "order": 2
+    },
+    "brandLogo": {
+      "label": "Brand logo",
+      "description": "Zero or one logo in place of the wordmark: an image or a short muted looping video. Empty draws the brand name.",
+      "order": 3
+    },
+    "brandLogoRegion": {
+      "label": "Brand logo area",
+      "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+      "order": 4
+    },
+    "brandLogoFit": {
+      "label": "Brand logo fit",
+      "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+      "order": 5
+    },
+    "kicker": {
+      "label": "Kicker",
+      "description": "Above the number, in the accent. Empty removes it.",
+      "placeholder": "Just in",
+      "order": 6
+    },
+    "count": {
+      "label": "Count",
+      "description": "How many pieces came in, 1 to 9999, drawn large in the accent.",
+      "placeholder": "48",
+      "order": 7
+    },
+    "countLabel": {
+      "label": "Count noun",
+      "description": "The words after the number. Required.",
+      "placeholder": "new pieces",
+      "order": 8
+    },
+    "whenLine": {
+      "label": "When",
+      "description": "The day and the hour, under the count. Empty removes it.",
+      "placeholder": "Friday at 10, in store and online",
+      "order": 9
+    },
+    "item1Name": {
+      "label": "Piece 1",
+      "description": "The first piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+      "placeholder": "Emerald Cluster Ring",
+      "order": 10
+    },
+    "item1Art": {
+      "label": "Piece 1 art",
+      "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "solitaire",
+      "order": 11
+    },
+    "item1Image": {
+      "label": "Piece 1 photo or clip",
+      "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+      "order": 12
+    },
+    "item1ImageRegion": {
+      "label": "Piece 1 area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+      "order": 13
+    },
+    "item1ImageFit": {
+      "label": "Piece 1 fit",
+      "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+      "order": 14
+    },
+    "item2Name": {
+      "label": "Piece 2",
+      "description": "The second piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+      "placeholder": "Diamond Cluster Drops",
+      "order": 15
+    },
+    "item2Art": {
+      "label": "Piece 2 art",
+      "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "studs",
+      "order": 16
+    },
+    "item2Image": {
+      "label": "Piece 2 photo or clip",
+      "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+      "order": 17
+    },
+    "item2ImageRegion": {
+      "label": "Piece 2 area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+      "order": 18
+    },
+    "item2ImageFit": {
+      "label": "Piece 2 fit",
+      "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+      "order": 19
+    },
+    "item3Name": {
+      "label": "Piece 3",
+      "description": "The third piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+      "placeholder": "Diamond Line Bracelet",
+      "order": 20
+    },
+    "item3Art": {
+      "label": "Piece 3 art",
+      "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "tennis",
+      "order": 21
+    },
+    "item3Image": {
+      "label": "Piece 3 photo or clip",
+      "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+      "order": 22
+    },
+    "item3ImageRegion": {
+      "label": "Piece 3 area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+      "order": 23
+    },
+    "item3ImageFit": {
+      "label": "Piece 3 fit",
+      "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+      "order": 24
+    },
+    "item4Name": {
+      "label": "Piece 4",
+      "description": "The fourth piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+      "placeholder": "Heart Drop Bar Necklace",
+      "order": 25
+    },
+    "item4Art": {
+      "label": "Piece 4 art",
+      "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "pendant",
+      "order": 26
+    },
+    "item4Image": {
+      "label": "Piece 4 photo or clip",
+      "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+      "order": 27
+    },
+    "item4ImageRegion": {
+      "label": "Piece 4 area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+      "order": 28
+    },
+    "item4ImageFit": {
+      "label": "Piece 4 fit",
+      "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+      "order": 29
+    },
+    "ctaLabel": {
+      "label": "Call to action",
+      "description": "The last line. Empty removes it.",
+      "placeholder": "First look for subscribers Thursday night",
+      "order": 30
+    },
+    "ctaUrl": {
+      "label": "Link",
+      "description": "Where to go, under the call to action. Empty removes it.",
+      "placeholder": "maisonlumen.example/new",
+      "order": 31
+    },
+    "metal": {
+      "label": "Metal tone",
+      "description": "The metal every bundled illustration is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+      "placeholder": "gold",
+      "order": 32
+    },
+    "stone": {
+      "label": "Stone tone",
+      "description": "The stone every bundled illustration is drawn with. (Drawn only if the starter pack is missing.)",
+      "placeholder": "diamond",
+      "order": 33
+    },
+    "theme": {
+      "label": "Theme",
+      "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+      "placeholder": "ivory",
+      "order": 34
+    },
+    "accent": {
+      "label": "Accent",
+      "description": "The brand colour as #rrggbb: the count, the kicker and the progress line.",
+      "order": 35
+    },
+    "background": {
+      "label": "Background",
+      "description": "The page colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 36
+    },
+    "ink": {
+      "label": "Text",
+      "description": "The text colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 37
+    },
+    "durationSec": {
+      "label": "Length (s)",
+      "description": "Clip length in whole seconds, 5 to 30. The count holds the first quarter while the pieces arrive; an explicit duration pin overrides it.",
+      "placeholder": "8",
+      "order": 38
+    },
+    "debugLayout": {
+      "label": "Debug layout",
+      "description": "Dev-only: check the layout contract (every line fits its box) and draw it over the frame.",
+      "order": 39
+    }
+  }
+}

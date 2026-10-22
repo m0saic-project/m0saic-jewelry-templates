@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "templateId": "@jewelry/print/window-card/v1",
+  "label": "05 · Window Card",
+  "description": "The card for the window or the case, at print size: your photo takes the top of the card, and the name, the spec and the price sit centred under it, a thin line in your colour on the card's edge. A still, ready to print and trim at A7, A6 or 4x6. Every picture edits on the canvas: drop a photo in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+  "tags": [
+    "jewelry",
+    "print",
+    "window",
+    "showcase",
+    "card",
+    "still",
+    "png",
+    "a7",
+    "a6",
+    "4x6",
+    "photo-led"
+  ],
+  "props": {
+    "cardSize": {
+      "label": "Card size",
+      "description": "Portrait at 300 dpi: a7 (74 x 105 mm) by default, a6 (105 x 148 mm) or 4x6 inches.",
+      "placeholder": "a7",
+      "order": 1
+    },
+    "brandName": {
+      "label": "Brand",
+      "description": "The small wordmark at the top of the card. A logo replaces it. Required.",
+      "placeholder": "Maison Lumen",
+      "order": 2
+    },
+    "brandLogo": {
+      "label": "Brand logo",
+      "description": "Zero or one logo in place of the wordmark. Empty draws the brand name.",
+      "order": 3
+    },
+    "brandLogoRegion": {
+      "label": "Brand logo area",
+      "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+      "order": 4
+    },
+    "brandLogoFit": {
+      "label": "Brand logo fit",
+      "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+      "order": 5
+    },
+    "kicker": {
+      "label": "Kicker",
+      "description": "The short line above the name, in the accent: a collection, a season, a reason. Empty removes it.",
+      "placeholder": "In the window this week",
+      "order": 6
+    },
+    "productName": {
+      "label": "Piece",
+      "description": "The name of the piece, large. Required.",
+      "placeholder": "The Aurelia Solitaire",
+      "order": 7
+    },
+    "specLine": {
+      "label": "Spec",
+      "description": "Metal, stone, size - one or two lines. Empty removes it.",
+      "placeholder": "18K white gold, four-prong diamond solitaire",
+      "order": 8
+    },
+    "price": {
+      "label": "Price",
+      "description": "The price as a number, above 0, drawn large with thousands separators.",
+      "placeholder": "5600",
+      "order": 9
+    },
+    "currency": {
+      "label": "Currency",
+      "description": "The symbol before the price.",
+      "placeholder": "$",
+      "order": 10
+    },
+    "stampLine": {
+      "label": "Under the price",
+      "description": "A quiet line under the price. Empty removes it.",
+      "placeholder": "Ask to try it on",
+      "order": 11
+    },
+    "productArt": {
+      "label": "Bundled art",
+      "description": "Which illustration stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. Tinted by Metal tone and Stone tone. (Drawn only if the starter pack is missing.)",
+      "placeholder": "solitaire",
+      "order": 12
+    },
+    "metal": {
+      "label": "Metal tone",
+      "description": "The metal the bundled art is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+      "placeholder": "gold",
+      "order": 13
+    },
+    "stone": {
+      "label": "Stone tone",
+      "description": "The stone the bundled art is drawn with: diamond, sapphire, ruby, emerald, amethyst, aquamarine, pearl, morganite, citrine, garnet, peridot, opal, topaz or tanzanite. (Drawn only if the starter pack is missing.)",
+      "placeholder": "diamond",
+      "order": 14
+    },
+    "productImage": {
+      "label": "Photo",
+      "description": "Zero or one photo of the piece. It is the hero: cover-cropped to fill the top of the card. Empty shows a starter photo from the pack until you add yours.",
+      "order": 15
+    },
+    "productImageRegion": {
+      "label": "Photo area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 16
+    },
+    "productImageFit": {
+      "label": "Photo fit",
+      "description": "cover fills the photo's area and crops what spills over; contain shows all of it inside the area, the paper around it. Default: cover.",
+      "order": 17
+    },
+    "theme": {
+      "label": "Theme",
+      "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+      "placeholder": "ivory",
+      "order": 18
+    },
+    "accent": {
+      "label": "Accent",
+      "description": "The brand colour as #rrggbb: the line on the card's edge, the kicker and the price.",
+      "order": 19
+    },
+    "background": {
+      "label": "Background",
+      "description": "The paper colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 20
+    },
+    "ink": {
+      "label": "Text",
+      "description": "The text colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 21
+    },
+    "debugLayout": {
+      "label": "Debug layout",
+      "description": "Dev-only: check the layout contract (every line fits its box) and draw it over the card.",
+      "order": 22
+    }
+  }
+}

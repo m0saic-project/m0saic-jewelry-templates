@@ -428,6 +428,32 @@
    "bytes": 1310060
   },
   {
+   "key": "clip-cuff",
+   "file": "clip-cuff.mp4",
+   "kind": "video",
+   "roles": [
+    "bracelet",
+    "product",
+    "clip"
+   ],
+   "look": {
+    "piece": "bracelet",
+    "style": "cuff",
+    "stone": "diamond",
+    "metal": "yellow",
+    "name": "Tiger Head Pave Cuff"
+   },
+   "credit": {
+    "source": "pexels",
+    "title": "A Close-Up Video of a Golden Tiger",
+    "creator": "Omar Zahid",
+    "pageUrl": "https://www.pexels.com/video/a-close-up-video-of-a-golden-tiger-6173172/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/"
+   },
+   "bytes": 4766027
+  },
+  {
    "key": "clip-bench",
    "file": "clip-bench.mp4",
    "kind": "video",

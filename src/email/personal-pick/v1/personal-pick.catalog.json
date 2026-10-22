@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "templateId": "@jewelry/email/personal-pick/v1",
+  "label": "04 · Personal Pick",
+  "description": "The newsletter hero addressed to one client: her name and her occasion arrive with the piece you chose for her, then why it is hers, the private offer, her code and where to go. Fill it from your client book and every client gets her own, in the same look. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+  "tags": [
+    "jewelry",
+    "email",
+    "newsletter",
+    "personalized",
+    "clienteling",
+    "client-book",
+    "anniversary",
+    "offer",
+    "data-driven",
+    "video",
+    "photo-led"
+  ],
+  "props": {
+    "platform": {
+      "label": "Platform",
+      "description": "Where it is going: email 2:1 (a 1200x600 newsletter hero) by default; story 9:16, feed 4:5, square 1:1 and landscape 16:9 re-flow. Sets the canvas when the resolution is left locked to the template.",
+      "placeholder": "email",
+      "order": 1
+    },
+    "brandName": {
+      "label": "Brand",
+      "description": "The small wordmark on every frame. A logo replaces it. Required.",
+      "placeholder": "Maison Lumen",
+      "order": 2
+    },
+    "brandLogo": {
+      "label": "Brand logo",
+      "description": "Zero or one logo in place of the wordmark: an image or a short muted looping video. Empty draws the brand name.",
+      "order": 3
+    },
+    "brandLogoRegion": {
+      "label": "Brand logo area",
+      "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+      "order": 4
+    },
+    "brandLogoFit": {
+      "label": "Brand logo fit",
+      "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+      "order": 5
+    },
+    "customerName": {
+      "label": "Client name",
+      "description": "Who it is for: the name in the greeting, on the first frame. Required.",
+      "placeholder": "Susie",
+      "order": 6
+    },
+    "greeting": {
+      "label": "Greeting",
+      "description": "The word before the name. Empty leaves the name alone.",
+      "placeholder": "Hi",
+      "order": 7
+    },
+    "occasion": {
+      "label": "Occasion",
+      "description": "Why she is hearing from you - the date your client book knows. Under the greeting. Empty removes it.",
+      "placeholder": "Your anniversary is three weeks away.",
+      "order": 8
+    },
+    "kicker": {
+      "label": "Kicker",
+      "description": "The short line above the piece, in the accent. Empty removes it.",
+      "placeholder": "Chosen for you",
+      "order": 9
+    },
+    "productName": {
+      "label": "Piece",
+      "description": "The piece chosen for her, large. Required.",
+      "placeholder": "Emerald Halo Pendant",
+      "order": 10
+    },
+    "reason": {
+      "label": "Why this piece",
+      "description": "One or two lines on why this piece is for her - her stone, what she bought before, what she wished for. Empty removes it.",
+      "placeholder": "Emerald and diamond, to go with the earrings you chose last year.",
+      "order": 11
+    },
+    "offer": {
+      "label": "Offer",
+      "description": "The private offer, large, in the accent. Empty removes it.",
+      "placeholder": "15% off, just for you",
+      "order": 12
+    },
+    "promoCode": {
+      "label": "Private code",
+      "description": "Her code, shown as \"Code ...\" under the offer. Mint one per client. Empty removes it.",
+      "placeholder": "SUSIE-PICK",
+      "order": 13
+    },
+    "expiry": {
+      "label": "Ends",
+      "description": "When the offer ends. Empty removes it.",
+      "placeholder": "Until the 30th, in store and online",
+      "order": 14
+    },
+    "ctaLabel": {
+      "label": "Call to action",
+      "description": "What to do next. Empty removes it.",
+      "placeholder": "Reserve it for a private viewing",
+      "order": 15
+    },
+    "ctaUrl": {
+      "label": "Link",
+      "description": "Where to go, under the call to action. Empty removes it.",
+      "placeholder": "maisonlumen.example/susie",
+      "order": 16
+    },
+    "productArt": {
+      "label": "Bundled art",
+      "description": "Which illustration stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. Tinted by Metal tone and Stone tone. (Drawn only if the starter pack is missing.)",
+      "placeholder": "pendant",
+      "order": 17
+    },
+    "metal": {
+      "label": "Metal tone",
+      "description": "The metal the bundled art is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+      "placeholder": "white",
+      "order": 18
+    },
+    "stone": {
+      "label": "Stone tone",
+      "description": "The stone the bundled art is drawn with - her birthstone, for instance. (Drawn only if the starter pack is missing.)",
+      "placeholder": "emerald",
+      "order": 19
+    },
+    "productImage": {
+      "label": "Photo or clip",
+      "description": "Zero or one photo or short clip of the piece you picked for her. It is the hero: cover-cropped to fill its side of the frame, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+      "order": 20
+    },
+    "productImageRegion": {
+      "label": "Photo or clip area",
+      "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 21
+    },
+    "productImageFit": {
+      "label": "Photo or clip fit",
+      "description": "cover fills the photo's area and crops what spills over; contain shows all of it inside the area, the page around it. Default: cover.",
+      "order": 22
+    },
+    "theme": {
+      "label": "Theme",
+      "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+      "placeholder": "ivory",
+      "order": 23
+    },
+    "accent": {
+      "label": "Accent",
+      "description": "The brand colour as #rrggbb: the kicker, the offer, the code and the progress line.",
+      "order": 24
+    },
+    "background": {
+      "label": "Background",
+      "description": "The page colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 25
+    },
+    "ink": {
+      "label": "Text",
+      "description": "The text colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 26
+    },
+    "durationSec": {
+      "label": "Length (s)",
+      "description": "Clip length in whole seconds, 6 to 30. The greeting holds the first 30%, the piece and the offer the rest; an explicit duration pin overrides it.",
+      "placeholder": "10",
+      "order": 27
+    },
+    "debugLayout": {
+      "label": "Debug layout",
+      "description": "Dev-only: check the layout contract (every line fits its box) and draw it over the frame.",
+      "order": 28
+    }
+  }
+}

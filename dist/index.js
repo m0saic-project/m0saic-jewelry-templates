@@ -22,12 +22,18 @@ const repo_1 = require("./repo");
 Object.defineProperty(exports, "TEMPLATE_PACKS", { enumerable: true, get: function () { return repo_1.TEMPLATE_PACKS; } });
 Object.defineProperty(exports, "TEMPLATE_REPO", { enumerable: true, get: function () { return repo_1.TEMPLATE_REPO; } });
 const social_1 = require("./social");
+const email_1 = require("./email");
+const print_1 = require("./print");
 /** The two exports every Mosaic host requires from a template repo. */
 exports.repo = repo_1.TEMPLATE_REPO;
 exports.templates = [
     ...social_1.socialTemplates,
+    ...email_1.emailTemplates,
+    ...print_1.printTemplates,
 ];
 // Library re-exports for anyone importing this repo as code. `export *`
 // ONLY for template modules — never pair `export * from "./x"` with a
 // named re-export of the same module (tsc double-require hazard).
 __exportStar(require("./social"), exports);
+__exportStar(require("./email"), exports);
+__exportStar(require("./print"), exports);

@@ -39,13 +39,123 @@
         "video": "assets/templates/@jewelry__social__product-spotlight__v1/preview.mp4",
         "poster": "assets/templates/@jewelry__social__product-spotlight__v1/poster.png"
       }
+    },
+    {
+      "slug": "piece-reel",
+      "templateKey": "@jewelry/social/piece-reel/v1",
+      "title": "02 · Piece Reel",
+      "description": "Your own clips cut into a Reel, the words never over the piece: two to five clips, each in its own rect with the piece's name and one line of detail under it, the hook above the first, then a closing card - where to buy, or where to find you at a show, with an optional show band under every clip. The clip holds still through every crossfade. Every clip edits on the canvas: drop a clip or a photo in, drag the area it fills; one fit for all of them. With no clips of your own, real ones from the starter pack stand in, never clip art.",
+      "tags": [
+        "jewelry",
+        "social",
+        "reel",
+        "footage",
+        "clips",
+        "instagram",
+        "tiktok",
+        "story",
+        "trade-show",
+        "booth",
+        "maker",
+        "new-arrivals",
+        "video"
+      ],
+      "pack": "social",
+      "preview": {
+        "image": "assets/templates/@jewelry__social__piece-reel__v1/preview.png",
+        "video": "assets/templates/@jewelry__social__piece-reel__v1/preview.mp4",
+        "poster": "assets/templates/@jewelry__social__piece-reel__v1/poster.png"
+      }
+    },
+    {
+      "slug": "new-arrivals",
+      "templateKey": "@jewelry/social/new-arrivals/v1",
+      "title": "03 · New Arrivals",
+      "description": "The weekly drop: how many new pieces came in, when they go out, and up to four of them as one mosaic of your photos - two side by side, three as one large and two small, four as a 2x2 - arriving one by one, the names and where to look beside them. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, real pieces from the starter pack stand in, never clip art.",
+      "tags": [
+        "jewelry",
+        "social",
+        "new-arrivals",
+        "drop",
+        "restock",
+        "weekly",
+        "feed",
+        "instagram",
+        "data-driven",
+        "video",
+        "photo-led"
+      ],
+      "pack": "social",
+      "preview": {
+        "image": "assets/templates/@jewelry__social__new-arrivals__v1/preview.png",
+        "video": "assets/templates/@jewelry__social__new-arrivals__v1/preview.mp4",
+        "poster": "assets/templates/@jewelry__social__new-arrivals__v1/poster.png"
+      }
+    },
+    {
+      "slug": "personal-pick",
+      "templateKey": "@jewelry/email/personal-pick/v1",
+      "title": "04 · Personal Pick",
+      "description": "The newsletter hero addressed to one client: her name and her occasion arrive with the piece you chose for her, then why it is hers, the private offer, her code and where to go. Fill it from your client book and every client gets her own, in the same look. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+      "tags": [
+        "jewelry",
+        "email",
+        "newsletter",
+        "personalized",
+        "clienteling",
+        "client-book",
+        "anniversary",
+        "offer",
+        "data-driven",
+        "video",
+        "photo-led"
+      ],
+      "pack": "email",
+      "preview": {
+        "image": "assets/templates/@jewelry__email__personal-pick__v1/preview.png",
+        "video": "assets/templates/@jewelry__email__personal-pick__v1/preview.mp4",
+        "poster": "assets/templates/@jewelry__email__personal-pick__v1/poster.png"
+      }
+    },
+    {
+      "slug": "window-card",
+      "templateKey": "@jewelry/print/window-card/v1",
+      "title": "05 · Window Card",
+      "description": "The card for the window or the case, at print size: your photo takes the top of the card, and the name, the spec and the price sit centred under it, a thin line in your colour on the card's edge. A still, ready to print and trim at A7, A6 or 4x6. Every picture edits on the canvas: drop a photo in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+      "tags": [
+        "jewelry",
+        "print",
+        "window",
+        "showcase",
+        "card",
+        "still",
+        "png",
+        "a7",
+        "a6",
+        "4x6",
+        "photo-led"
+      ],
+      "pack": "print",
+      "preview": {
+        "image": "assets/templates/@jewelry__print__window-card__v1/preview.png"
+      }
     }
   ],
   "packs": [
     {
       "id": "social",
       "title": "Social",
-      "description": "Posts, stories and reels: one piece, one ad, your photo or clip at the centre."
+      "description": "Posts, stories and reels: your own photos and clips at the centre, the words beside them."
+    },
+    {
+      "id": "email",
+      "title": "Email",
+      "description": "Newsletter heroes addressed to one client: her name, her occasion, the piece you chose for her."
+    },
+    {
+      "id": "print",
+      "title": "Print",
+      "description": "Cards for the window and the case, at print size: the piece, its name and its price."
     }
   ]
 }

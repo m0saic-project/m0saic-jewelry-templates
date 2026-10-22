@@ -1,6 +1,875 @@
 {
   "schemaVersion": 1,
   "templates": {
+    "@jewelry/email/personal-pick/v1": {
+      "label": "04 · Personal Pick",
+      "description": "The newsletter hero addressed to one client: her name and her occasion arrive with the piece you chose for her, then why it is hers, the private offer, her code and where to go. Fill it from your client book and every client gets her own, in the same look. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+      "tags": [
+        "jewelry",
+        "email",
+        "newsletter",
+        "personalized",
+        "clienteling",
+        "client-book",
+        "anniversary",
+        "offer",
+        "data-driven",
+        "video",
+        "photo-led"
+      ],
+      "props": {
+        "platform": {
+          "label": "Platform",
+          "description": "Where it is going: email 2:1 (a 1200x600 newsletter hero) by default; story 9:16, feed 4:5, square 1:1 and landscape 16:9 re-flow. Sets the canvas when the resolution is left locked to the template.",
+          "placeholder": "email",
+          "order": 1
+        },
+        "brandName": {
+          "label": "Brand",
+          "description": "The small wordmark on every frame. A logo replaces it. Required.",
+          "placeholder": "Maison Lumen",
+          "order": 2
+        },
+        "brandLogo": {
+          "label": "Brand logo",
+          "description": "Zero or one logo in place of the wordmark: an image or a short muted looping video. Empty draws the brand name.",
+          "order": 3
+        },
+        "brandLogoRegion": {
+          "label": "Brand logo area",
+          "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+          "order": 4
+        },
+        "brandLogoFit": {
+          "label": "Brand logo fit",
+          "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+          "order": 5
+        },
+        "customerName": {
+          "label": "Client name",
+          "description": "Who it is for: the name in the greeting, on the first frame. Required.",
+          "placeholder": "Susie",
+          "order": 6
+        },
+        "greeting": {
+          "label": "Greeting",
+          "description": "The word before the name. Empty leaves the name alone.",
+          "placeholder": "Hi",
+          "order": 7
+        },
+        "occasion": {
+          "label": "Occasion",
+          "description": "Why she is hearing from you - the date your client book knows. Under the greeting. Empty removes it.",
+          "placeholder": "Your anniversary is three weeks away.",
+          "order": 8
+        },
+        "kicker": {
+          "label": "Kicker",
+          "description": "The short line above the piece, in the accent. Empty removes it.",
+          "placeholder": "Chosen for you",
+          "order": 9
+        },
+        "productName": {
+          "label": "Piece",
+          "description": "The piece chosen for her, large. Required.",
+          "placeholder": "Emerald Halo Pendant",
+          "order": 10
+        },
+        "reason": {
+          "label": "Why this piece",
+          "description": "One or two lines on why this piece is for her - her stone, what she bought before, what she wished for. Empty removes it.",
+          "placeholder": "Emerald and diamond, to go with the earrings you chose last year.",
+          "order": 11
+        },
+        "offer": {
+          "label": "Offer",
+          "description": "The private offer, large, in the accent. Empty removes it.",
+          "placeholder": "15% off, just for you",
+          "order": 12
+        },
+        "promoCode": {
+          "label": "Private code",
+          "description": "Her code, shown as \"Code ...\" under the offer. Mint one per client. Empty removes it.",
+          "placeholder": "SUSIE-PICK",
+          "order": 13
+        },
+        "expiry": {
+          "label": "Ends",
+          "description": "When the offer ends. Empty removes it.",
+          "placeholder": "Until the 30th, in store and online",
+          "order": 14
+        },
+        "ctaLabel": {
+          "label": "Call to action",
+          "description": "What to do next. Empty removes it.",
+          "placeholder": "Reserve it for a private viewing",
+          "order": 15
+        },
+        "ctaUrl": {
+          "label": "Link",
+          "description": "Where to go, under the call to action. Empty removes it.",
+          "placeholder": "maisonlumen.example/susie",
+          "order": 16
+        },
+        "productArt": {
+          "label": "Bundled art",
+          "description": "Which illustration stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. Tinted by Metal tone and Stone tone. (Drawn only if the starter pack is missing.)",
+          "placeholder": "pendant",
+          "order": 17
+        },
+        "metal": {
+          "label": "Metal tone",
+          "description": "The metal the bundled art is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+          "placeholder": "white",
+          "order": 18
+        },
+        "stone": {
+          "label": "Stone tone",
+          "description": "The stone the bundled art is drawn with - her birthstone, for instance. (Drawn only if the starter pack is missing.)",
+          "placeholder": "emerald",
+          "order": 19
+        },
+        "productImage": {
+          "label": "Photo or clip",
+          "description": "Zero or one photo or short clip of the piece you picked for her. It is the hero: cover-cropped to fill its side of the frame, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+          "order": 20
+        },
+        "productImageRegion": {
+          "label": "Photo or clip area",
+          "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 21
+        },
+        "productImageFit": {
+          "label": "Photo or clip fit",
+          "description": "cover fills the photo's area and crops what spills over; contain shows all of it inside the area, the page around it. Default: cover.",
+          "order": 22
+        },
+        "theme": {
+          "label": "Theme",
+          "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+          "placeholder": "ivory",
+          "order": 23
+        },
+        "accent": {
+          "label": "Accent",
+          "description": "The brand colour as #rrggbb: the kicker, the offer, the code and the progress line.",
+          "order": 24
+        },
+        "background": {
+          "label": "Background",
+          "description": "The page colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 25
+        },
+        "ink": {
+          "label": "Text",
+          "description": "The text colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 26
+        },
+        "durationSec": {
+          "label": "Length (s)",
+          "description": "Clip length in whole seconds, 6 to 30. The greeting holds the first 30%, the piece and the offer the rest; an explicit duration pin overrides it.",
+          "placeholder": "10",
+          "order": 27
+        },
+        "debugLayout": {
+          "label": "Debug layout",
+          "description": "Dev-only: check the layout contract (every line fits its box) and draw it over the frame.",
+          "order": 28
+        }
+      }
+    },
+    "@jewelry/print/window-card/v1": {
+      "label": "05 · Window Card",
+      "description": "The card for the window or the case, at print size: your photo takes the top of the card, and the name, the spec and the price sit centred under it, a thin line in your colour on the card's edge. A still, ready to print and trim at A7, A6 or 4x6. Every picture edits on the canvas: drop a photo in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",
+      "tags": [
+        "jewelry",
+        "print",
+        "window",
+        "showcase",
+        "card",
+        "still",
+        "png",
+        "a7",
+        "a6",
+        "4x6",
+        "photo-led"
+      ],
+      "props": {
+        "cardSize": {
+          "label": "Card size",
+          "description": "Portrait at 300 dpi: a7 (74 x 105 mm) by default, a6 (105 x 148 mm) or 4x6 inches.",
+          "placeholder": "a7",
+          "order": 1
+        },
+        "brandName": {
+          "label": "Brand",
+          "description": "The small wordmark at the top of the card. A logo replaces it. Required.",
+          "placeholder": "Maison Lumen",
+          "order": 2
+        },
+        "brandLogo": {
+          "label": "Brand logo",
+          "description": "Zero or one logo in place of the wordmark. Empty draws the brand name.",
+          "order": 3
+        },
+        "brandLogoRegion": {
+          "label": "Brand logo area",
+          "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+          "order": 4
+        },
+        "brandLogoFit": {
+          "label": "Brand logo fit",
+          "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+          "order": 5
+        },
+        "kicker": {
+          "label": "Kicker",
+          "description": "The short line above the name, in the accent: a collection, a season, a reason. Empty removes it.",
+          "placeholder": "In the window this week",
+          "order": 6
+        },
+        "productName": {
+          "label": "Piece",
+          "description": "The name of the piece, large. Required.",
+          "placeholder": "The Aurelia Solitaire",
+          "order": 7
+        },
+        "specLine": {
+          "label": "Spec",
+          "description": "Metal, stone, size - one or two lines. Empty removes it.",
+          "placeholder": "18K white gold, four-prong diamond solitaire",
+          "order": 8
+        },
+        "price": {
+          "label": "Price",
+          "description": "The price as a number, above 0, drawn large with thousands separators.",
+          "placeholder": "5600",
+          "order": 9
+        },
+        "currency": {
+          "label": "Currency",
+          "description": "The symbol before the price.",
+          "placeholder": "$",
+          "order": 10
+        },
+        "stampLine": {
+          "label": "Under the price",
+          "description": "A quiet line under the price. Empty removes it.",
+          "placeholder": "Ask to try it on",
+          "order": 11
+        },
+        "productArt": {
+          "label": "Bundled art",
+          "description": "Which illustration stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. Tinted by Metal tone and Stone tone. (Drawn only if the starter pack is missing.)",
+          "placeholder": "solitaire",
+          "order": 12
+        },
+        "metal": {
+          "label": "Metal tone",
+          "description": "The metal the bundled art is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+          "placeholder": "gold",
+          "order": 13
+        },
+        "stone": {
+          "label": "Stone tone",
+          "description": "The stone the bundled art is drawn with: diamond, sapphire, ruby, emerald, amethyst, aquamarine, pearl, morganite, citrine, garnet, peridot, opal, topaz or tanzanite. (Drawn only if the starter pack is missing.)",
+          "placeholder": "diamond",
+          "order": 14
+        },
+        "productImage": {
+          "label": "Photo",
+          "description": "Zero or one photo of the piece. It is the hero: cover-cropped to fill the top of the card. Empty shows a starter photo from the pack until you add yours.",
+          "order": 15
+        },
+        "productImageRegion": {
+          "label": "Photo area",
+          "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 16
+        },
+        "productImageFit": {
+          "label": "Photo fit",
+          "description": "cover fills the photo's area and crops what spills over; contain shows all of it inside the area, the paper around it. Default: cover.",
+          "order": 17
+        },
+        "theme": {
+          "label": "Theme",
+          "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+          "placeholder": "ivory",
+          "order": 18
+        },
+        "accent": {
+          "label": "Accent",
+          "description": "The brand colour as #rrggbb: the line on the card's edge, the kicker and the price.",
+          "order": 19
+        },
+        "background": {
+          "label": "Background",
+          "description": "The paper colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 20
+        },
+        "ink": {
+          "label": "Text",
+          "description": "The text colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 21
+        },
+        "debugLayout": {
+          "label": "Debug layout",
+          "description": "Dev-only: check the layout contract (every line fits its box) and draw it over the card.",
+          "order": 22
+        }
+      }
+    },
+    "@jewelry/social/new-arrivals/v1": {
+      "label": "03 · New Arrivals",
+      "description": "The weekly drop: how many new pieces came in, when they go out, and up to four of them as one mosaic of your photos - two side by side, three as one large and two small, four as a 2x2 - arriving one by one, the names and where to look beside them. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, real pieces from the starter pack stand in, never clip art.",
+      "tags": [
+        "jewelry",
+        "social",
+        "new-arrivals",
+        "drop",
+        "restock",
+        "weekly",
+        "feed",
+        "instagram",
+        "data-driven",
+        "video",
+        "photo-led"
+      ],
+      "props": {
+        "platform": {
+          "label": "Platform",
+          "description": "Where the clip is going: feed 4:5 by default; story 9:16 and square 1:1 re-flow; landscape 16:9 and email 2:1 put the count beside the pieces. Sets the canvas when the resolution is left locked to the template.",
+          "placeholder": "feed",
+          "order": 1
+        },
+        "brandName": {
+          "label": "Brand",
+          "description": "The small wordmark on every frame. A logo replaces it. Required.",
+          "placeholder": "Maison Lumen",
+          "order": 2
+        },
+        "brandLogo": {
+          "label": "Brand logo",
+          "description": "Zero or one logo in place of the wordmark: an image or a short muted looping video. Empty draws the brand name.",
+          "order": 3
+        },
+        "brandLogoRegion": {
+          "label": "Brand logo area",
+          "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+          "order": 4
+        },
+        "brandLogoFit": {
+          "label": "Brand logo fit",
+          "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+          "order": 5
+        },
+        "kicker": {
+          "label": "Kicker",
+          "description": "Above the number, in the accent. Empty removes it.",
+          "placeholder": "Just in",
+          "order": 6
+        },
+        "count": {
+          "label": "Count",
+          "description": "How many pieces came in, 1 to 9999, drawn large in the accent.",
+          "placeholder": "48",
+          "order": 7
+        },
+        "countLabel": {
+          "label": "Count noun",
+          "description": "The words after the number. Required.",
+          "placeholder": "new pieces",
+          "order": 8
+        },
+        "whenLine": {
+          "label": "When",
+          "description": "The day and the hour, under the count. Empty removes it.",
+          "placeholder": "Friday at 10, in store and online",
+          "order": 9
+        },
+        "item1Name": {
+          "label": "Piece 1",
+          "description": "The first piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+          "placeholder": "Emerald Cluster Ring",
+          "order": 10
+        },
+        "item1Art": {
+          "label": "Piece 1 art",
+          "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "solitaire",
+          "order": 11
+        },
+        "item1Image": {
+          "label": "Piece 1 photo or clip",
+          "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+          "order": 12
+        },
+        "item1ImageRegion": {
+          "label": "Piece 1 area",
+          "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+          "order": 13
+        },
+        "item1ImageFit": {
+          "label": "Piece 1 fit",
+          "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+          "order": 14
+        },
+        "item2Name": {
+          "label": "Piece 2",
+          "description": "The second piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+          "placeholder": "Diamond Cluster Drops",
+          "order": 15
+        },
+        "item2Art": {
+          "label": "Piece 2 art",
+          "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "studs",
+          "order": 16
+        },
+        "item2Image": {
+          "label": "Piece 2 photo or clip",
+          "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+          "order": 17
+        },
+        "item2ImageRegion": {
+          "label": "Piece 2 area",
+          "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+          "order": 18
+        },
+        "item2ImageFit": {
+          "label": "Piece 2 fit",
+          "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+          "order": 19
+        },
+        "item3Name": {
+          "label": "Piece 3",
+          "description": "The third piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+          "placeholder": "Diamond Line Bracelet",
+          "order": 20
+        },
+        "item3Art": {
+          "label": "Piece 3 art",
+          "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "tennis",
+          "order": 21
+        },
+        "item3Image": {
+          "label": "Piece 3 photo or clip",
+          "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+          "order": 22
+        },
+        "item3ImageRegion": {
+          "label": "Piece 3 area",
+          "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+          "order": 23
+        },
+        "item3ImageFit": {
+          "label": "Piece 3 fit",
+          "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+          "order": 24
+        },
+        "item4Name": {
+          "label": "Piece 4",
+          "description": "The fourth piece's name, in the line of names. Empty drops its tile; the others re-flow (two side by side, three as one large and two small, four as a 2x2).",
+          "placeholder": "Heart Drop Bar Necklace",
+          "order": 25
+        },
+        "item4Art": {
+          "label": "Piece 4 art",
+          "description": "The illustration that stands in when there is no photo: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "pendant",
+          "order": 26
+        },
+        "item4Image": {
+          "label": "Piece 4 photo or clip",
+          "description": "Zero or one photo or short clip of the piece. It fills its tile, cover-cropped, looping and muted if it moves. Empty shows a starter photo from the pack until you add yours.",
+          "order": 27
+        },
+        "item4ImageRegion": {
+          "label": "Piece 4 area",
+          "description": "Where the photo goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the photo fills the rect at its fit, so a tighter rect crops it. Empty keeps its tile in the layout.",
+          "order": 28
+        },
+        "item4ImageFit": {
+          "label": "Piece 4 fit",
+          "description": "cover fills the tile and crops what spills over; contain shows all of it inside the tile, the page around it. Default: cover.",
+          "order": 29
+        },
+        "ctaLabel": {
+          "label": "Call to action",
+          "description": "The last line. Empty removes it.",
+          "placeholder": "First look for subscribers Thursday night",
+          "order": 30
+        },
+        "ctaUrl": {
+          "label": "Link",
+          "description": "Where to go, under the call to action. Empty removes it.",
+          "placeholder": "maisonlumen.example/new",
+          "order": 31
+        },
+        "metal": {
+          "label": "Metal tone",
+          "description": "The metal every bundled illustration is drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+          "placeholder": "gold",
+          "order": 32
+        },
+        "stone": {
+          "label": "Stone tone",
+          "description": "The stone every bundled illustration is drawn with. (Drawn only if the starter pack is missing.)",
+          "placeholder": "diamond",
+          "order": 33
+        },
+        "theme": {
+          "label": "Theme",
+          "description": "ivory (warm paper, dark text), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+          "placeholder": "ivory",
+          "order": 34
+        },
+        "accent": {
+          "label": "Accent",
+          "description": "The brand colour as #rrggbb: the count, the kicker and the progress line.",
+          "order": 35
+        },
+        "background": {
+          "label": "Background",
+          "description": "The page colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 36
+        },
+        "ink": {
+          "label": "Text",
+          "description": "The text colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 37
+        },
+        "durationSec": {
+          "label": "Length (s)",
+          "description": "Clip length in whole seconds, 5 to 30. The count holds the first quarter while the pieces arrive; an explicit duration pin overrides it.",
+          "placeholder": "8",
+          "order": 38
+        },
+        "debugLayout": {
+          "label": "Debug layout",
+          "description": "Dev-only: check the layout contract (every line fits its box) and draw it over the frame.",
+          "order": 39
+        }
+      }
+    },
+    "@jewelry/social/piece-reel/v1": {
+      "label": "02 · Piece Reel",
+      "description": "Your own clips cut into a Reel, the words never over the piece: two to five clips, each in its own rect with the piece's name and one line of detail under it, the hook above the first, then a closing card - where to buy, or where to find you at a show, with an optional show band under every clip. The clip holds still through every crossfade. Every clip edits on the canvas: drop a clip or a photo in, drag the area it fills; one fit for all of them. With no clips of your own, real ones from the starter pack stand in, never clip art.",
+      "tags": [
+        "jewelry",
+        "social",
+        "reel",
+        "footage",
+        "clips",
+        "instagram",
+        "tiktok",
+        "story",
+        "trade-show",
+        "booth",
+        "maker",
+        "new-arrivals",
+        "video"
+      ],
+      "props": {
+        "platform": {
+          "label": "Platform",
+          "description": "Where the reel is going: story 9:16 by default - Reels, TikTok, Stories; feed 4:5 and square 1:1 re-flow; landscape 16:9 and email 2:1 put the clip on the left and the words on the right. Sets the canvas when the resolution is left locked to the template.",
+          "placeholder": "story",
+          "order": 1
+        },
+        "brandName": {
+          "label": "Brand",
+          "description": "The small wordmark above every clip and large on the closing card. A logo replaces it on the closing card. Required.",
+          "placeholder": "Maison Lumen",
+          "order": 2
+        },
+        "brandLogo": {
+          "label": "Brand logo",
+          "description": "Zero or one logo for the closing card: an image or a short muted looping video. Empty draws the brand name.",
+          "order": 3
+        },
+        "brandLogoRegion": {
+          "label": "Brand logo area",
+          "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+          "order": 4
+        },
+        "brandLogoFit": {
+          "label": "Brand logo fit",
+          "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+          "order": 5
+        },
+        "tagline": {
+          "label": "Tagline",
+          "description": "Small caps under the wordmark on the closing card. Empty removes it.",
+          "placeholder": "Fine jewelry, New York",
+          "order": 6
+        },
+        "hook": {
+          "label": "Hook",
+          "description": "The opening line, above the first clip - the thumbnail. Empty removes it.",
+          "placeholder": "Just off the bench",
+          "order": 7
+        },
+        "secondsPerClip": {
+          "label": "Seconds per clip",
+          "description": "How long each clip holds the frame, 2 to 8. The closing card holds half a second longer (3 to 6). A pinned duration scales every slot instead.",
+          "placeholder": "3.5",
+          "order": 8
+        },
+        "clip1": {
+          "label": "Clip 1",
+          "description": "A clip or a photo of the first piece, in its own rect - nothing is ever drawn over it. A clip shorter than its step loops, muted. Empty shows a starter clip from the pack until you add yours.",
+          "order": 9
+        },
+        "clip1Region": {
+          "label": "Clip 1 area",
+          "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 10
+        },
+        "clip1Label": {
+          "label": "Clip 1 name",
+          "description": "The piece's name, under the clip - the stone and the shape are what a buyer looks for. A step with neither a clip nor a name is dropped.",
+          "placeholder": "Oval & Emerald-Cut Solitaires",
+          "order": 11
+        },
+        "clip1Detail": {
+          "label": "Clip 1 detail",
+          "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+          "placeholder": "Two solitaires, just off the bench",
+          "order": 12
+        },
+        "clip1Art": {
+          "label": "Clip 1 art",
+          "description": "The illustration that stands in when the step has no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "solitaire",
+          "order": 13
+        },
+        "clip2": {
+          "label": "Clip 2",
+          "description": "A clip or a photo of the second piece, in its own rect - nothing is ever drawn over it. A clip shorter than its step loops, muted. Empty shows a starter clip from the pack until you add yours.",
+          "order": 14
+        },
+        "clip2Region": {
+          "label": "Clip 2 area",
+          "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 15
+        },
+        "clip2Label": {
+          "label": "Clip 2 name",
+          "description": "The piece's name, under the clip - the stone and the shape are what a buyer looks for. A step with neither a clip nor a name is dropped.",
+          "placeholder": "Heart-Shaped Diamond",
+          "order": 16
+        },
+        "clip2Detail": {
+          "label": "Clip 2 detail",
+          "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+          "placeholder": "Loose, ready for its setting",
+          "order": 17
+        },
+        "clip2Art": {
+          "label": "Clip 2 art",
+          "description": "The illustration that stands in when the step has no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "diamond",
+          "order": 18
+        },
+        "clip3": {
+          "label": "Clip 3",
+          "description": "A clip or a photo of the third piece, in its own rect - nothing is ever drawn over it. A clip shorter than its step loops, muted. Empty shows a starter clip from the pack until you add yours.",
+          "order": 19
+        },
+        "clip3Region": {
+          "label": "Clip 3 area",
+          "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 20
+        },
+        "clip3Label": {
+          "label": "Clip 3 name",
+          "description": "The piece's name, under the clip - the stone and the shape are what a buyer looks for. A step with neither a clip nor a name is dropped.",
+          "placeholder": "Tiger Head Cuff",
+          "order": 21
+        },
+        "clip3Detail": {
+          "label": "Clip 3 detail",
+          "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+          "placeholder": "Sculpted head, pavé-set bands",
+          "order": 22
+        },
+        "clip3Art": {
+          "label": "Clip 3 art",
+          "description": "The illustration that stands in when the step has no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "tennis",
+          "order": 23
+        },
+        "clip4": {
+          "label": "Clip 4",
+          "description": "A clip or a photo of a fourth piece. Empty by default; a clip or a name adds a fourth step and lengthens the reel. With a name and no clip, a starter clip from the pack shows until you add yours.",
+          "order": 24
+        },
+        "clip4Region": {
+          "label": "Clip 4 area",
+          "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 25
+        },
+        "clip4Label": {
+          "label": "Clip 4 name",
+          "description": "The fourth piece's name. Empty (the default) draws no fourth step unless it has a clip.",
+          "placeholder": "Gold Huggie Hoops",
+          "order": 26
+        },
+        "clip4Detail": {
+          "label": "Clip 4 detail",
+          "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+          "placeholder": "14K yellow gold, 12 mm",
+          "order": 27
+        },
+        "clip4Art": {
+          "label": "Clip 4 art",
+          "description": "The illustration that stands in when the step has a name but no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "hoops",
+          "order": 28
+        },
+        "clip5": {
+          "label": "Clip 5",
+          "description": "A clip or a photo of a fifth piece. Empty by default; a clip or a name adds a fifth step and lengthens the reel. With a name and no clip, a starter photo from the pack shows until you add yours.",
+          "order": 29
+        },
+        "clip5Region": {
+          "label": "Clip 5 area",
+          "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+          "order": 30
+        },
+        "clip5Label": {
+          "label": "Clip 5 name",
+          "description": "The fifth piece's name. Empty (the default) draws no fifth step unless it has a clip.",
+          "placeholder": "Gold Huggie Hoops",
+          "order": 31
+        },
+        "clip5Detail": {
+          "label": "Clip 5 detail",
+          "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+          "placeholder": "14K yellow gold, 12 mm",
+          "order": 32
+        },
+        "clip5Art": {
+          "label": "Clip 5 art",
+          "description": "The illustration that stands in when the step has a name but no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+          "placeholder": "studs",
+          "order": 33
+        },
+        "ctaLine": {
+          "label": "Closing line",
+          "description": "The line on the closing card: where to buy. \"Shop now, link in bio\" for a store, \"See the new line in person\" with a show, \"DM your sales rep for pricing\" for the trade. Empty removes it.",
+          "placeholder": "See the new line in store and online",
+          "order": 34
+        },
+        "show1Name": {
+          "label": "Show 1",
+          "description": "The first show you will be at. Empty (the default) is the shop close; a name adds the show card to the closing card, and the show band under every clip.",
+          "placeholder": "The Fall Jewelry Show",
+          "order": 35
+        },
+        "show1Dates": {
+          "label": "Show 1 dates",
+          "description": "As they should read. Empty removes them.",
+          "placeholder": "Oct 25 - 27",
+          "order": 36
+        },
+        "show1Place": {
+          "label": "Show 1 place",
+          "description": "The city or the venue. Empty removes it.",
+          "placeholder": "New York",
+          "order": 37
+        },
+        "show1Booth": {
+          "label": "Show 1 booth",
+          "description": "A number reads as \"Booth 418\"; a value that starts with a word (\"Stand 2.1/501\") stands as typed. Empty removes it.",
+          "placeholder": "418",
+          "order": 38
+        },
+        "show2Name": {
+          "label": "Show 2",
+          "description": "A second show. Empty (the default) draws one show; a second sits beside the first on a wide canvas, below it otherwise.",
+          "placeholder": "The Winter Trade Show",
+          "order": 39
+        },
+        "show2Dates": {
+          "label": "Show 2 dates",
+          "description": "As they should read. Empty removes them.",
+          "placeholder": "Jan 30 - Feb 2",
+          "order": 40
+        },
+        "show2Place": {
+          "label": "Show 2 place",
+          "description": "The city or the venue. Empty removes it.",
+          "placeholder": "Tucson",
+          "order": 41
+        },
+        "show2Booth": {
+          "label": "Show 2 booth",
+          "description": "A number reads as \"Booth 418\"; a value that starts with a word (\"Stand 2.1/501\") stands as typed. Empty removes it.",
+          "placeholder": "1207",
+          "order": 42
+        },
+        "boothStrip": {
+          "label": "Show band",
+          "description": "Run the first show (name, dates, booth) as a band in the accent under every clip, once Show 1 has a name.",
+          "order": 43
+        },
+        "clipFit": {
+          "label": "Clip fit",
+          "description": "One fit for every clip: cover (the default) crops each clip to fill its rect; contain shows all of it on the page colour - a square turntable spin on a story canvas keeps the whole piece.",
+          "placeholder": "cover",
+          "order": 44
+        },
+        "metal": {
+          "label": "Metal tone",
+          "description": "The metal the bundled illustrations are drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+          "placeholder": "gold",
+          "order": 45
+        },
+        "stone": {
+          "label": "Stone tone",
+          "description": "The stone the bundled illustrations are drawn with. (Drawn only if the starter pack is missing.)",
+          "placeholder": "diamond",
+          "order": 46
+        },
+        "theme": {
+          "label": "Theme",
+          "description": "ivory (warm paper, dark text: the default), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+          "placeholder": "ivory",
+          "order": 47
+        },
+        "accent": {
+          "label": "Accent",
+          "description": "The brand colour as #rrggbb: the show band, the booth numbers, the rule on the closing card and the progress line.",
+          "order": 48
+        },
+        "background": {
+          "label": "Background",
+          "description": "The page colour as #rrggbb, around the clips and on the closing card. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 49
+        },
+        "ink": {
+          "label": "Text",
+          "description": "The text colour as #rrggbb. Empty takes the theme's.",
+          "placeholder": "from theme",
+          "order": 50
+        },
+        "debugLayout": {
+          "label": "Debug layout",
+          "description": "Dev-only: check the layout contract (every line fits its box, nothing over the clip) and draw it over the frame.",
+          "order": 51
+        }
+      }
+    },
     "@jewelry/social/product-spotlight/v1": {
       "label": "01 · Product Spotlight",
       "description": "One piece, one social ad: your photo or clip fills its side of the frame, and the name, the metal and stone, the price and where to go sit beside it. Every picture edits on the canvas: drop a photo or a clip in, drag the area it fills, pick whether it covers or fits. With no photo of your own, a real piece from the starter pack stands in, never clip art.",

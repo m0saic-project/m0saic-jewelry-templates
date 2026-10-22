@@ -32,7 +32,7 @@
     "dist/, template-manifest.json and template-catalog.json ARE committed:",
     "a clone loads with no build step, and `npm run bundle` packs exactly the",
     "committed build into the release Mosaic Desktop installs. Rebuild before",
-    "every commit; the ranges move to ^0.4.0 when the 0.4.0 packages publish."
+    "every commit."
   ],
   "dependencies": {
     "@m0saic/dsl": "^2.0.0",

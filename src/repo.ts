@@ -26,8 +26,8 @@ export const TEMPLATE_REPO: MosaicTemplateRepoDescriptor = {
   homepage: "https://github.com/m0saic-project/m0saic-jewelry-templates",
   // `samplesDir` ships the pack's sample pictures and clips as samples.tgz
   // (Mosaic Desktop's Files dock lists the folder first, as "Samples"). The
-  // field joins @m0saic/types on the 0.4.0 line; until then the cast keeps
-  // the 0.3.1 types happy and the manifest carries it all the same.
+  // field is not in @m0saic/types yet (0.4.0 still types templatesDir only):
+  // the cast keeps tsc happy and the manifest carries it all the same.
   assets: { templatesDir: "assets/templates", samplesDir: "samples" } as MosaicTemplateRepoDescriptor["assets"],
   // The template-convention line this repo targets (m0saic 0.3.1): the checks
   // hold its templates to the rules up to it and report newer ones as advice.
@@ -42,6 +42,16 @@ export const TEMPLATE_PACKS: MosaicTemplatePackDescriptor[] = [
   {
     id: "social",
     title: "Social",
-    description: "Posts, stories and reels: one piece, one ad, your photo or clip at the centre.",
+    description: "Posts, stories and reels: your own photos and clips at the centre, the words beside them.",
+  },
+  {
+    id: "email",
+    title: "Email",
+    description: "Newsletter heroes addressed to one client: her name, her occasion, the piece you chose for her.",
+  },
+  {
+    id: "print",
+    title: "Print",
+    description: "Cards for the window and the case, at print size: the piece, its name and its price.",
   },
 ];

@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "templateId": "@jewelry/social/piece-reel/v1",
+  "label": "02 · Piece Reel",
+  "description": "Your own clips cut into a Reel, the words never over the piece: two to five clips, each in its own rect with the piece's name and one line of detail under it, the hook above the first, then a closing card - where to buy, or where to find you at a show, with an optional show band under every clip. The clip holds still through every crossfade. Every clip edits on the canvas: drop a clip or a photo in, drag the area it fills; one fit for all of them. With no clips of your own, real ones from the starter pack stand in, never clip art.",
+  "tags": [
+    "jewelry",
+    "social",
+    "reel",
+    "footage",
+    "clips",
+    "instagram",
+    "tiktok",
+    "story",
+    "trade-show",
+    "booth",
+    "maker",
+    "new-arrivals",
+    "video"
+  ],
+  "props": {
+    "platform": {
+      "label": "Platform",
+      "description": "Where the reel is going: story 9:16 by default - Reels, TikTok, Stories; feed 4:5 and square 1:1 re-flow; landscape 16:9 and email 2:1 put the clip on the left and the words on the right. Sets the canvas when the resolution is left locked to the template.",
+      "placeholder": "story",
+      "order": 1
+    },
+    "brandName": {
+      "label": "Brand",
+      "description": "The small wordmark above every clip and large on the closing card. A logo replaces it on the closing card. Required.",
+      "placeholder": "Maison Lumen",
+      "order": 2
+    },
+    "brandLogo": {
+      "label": "Brand logo",
+      "description": "Zero or one logo for the closing card: an image or a short muted looping video. Empty draws the brand name.",
+      "order": 3
+    },
+    "brandLogoRegion": {
+      "label": "Brand logo area",
+      "description": "Where the logo goes - or the brand name, when there is no logo - drawn on the preview: drag the rect to move it, pull a corner to resize it. Empty keeps its place in the layout.",
+      "order": 4
+    },
+    "brandLogoFit": {
+      "label": "Brand logo fit",
+      "description": "contain shows the whole logo inside its area; cover fills the area and crops the logo's edges. Default: contain.",
+      "order": 5
+    },
+    "tagline": {
+      "label": "Tagline",
+      "description": "Small caps under the wordmark on the closing card. Empty removes it.",
+      "placeholder": "Fine jewelry, New York",
+      "order": 6
+    },
+    "hook": {
+      "label": "Hook",
+      "description": "The opening line, above the first clip - the thumbnail. Empty removes it.",
+      "placeholder": "Just off the bench",
+      "order": 7
+    },
+    "secondsPerClip": {
+      "label": "Seconds per clip",
+      "description": "How long each clip holds the frame, 2 to 8. The closing card holds half a second longer (3 to 6). A pinned duration scales every slot instead.",
+      "placeholder": "3.5",
+      "order": 8
+    },
+    "clip1": {
+      "label": "Clip 1",
+      "description": "A clip or a photo of the first piece, in its own rect - nothing is ever drawn over it. A clip shorter than its step loops, muted. Empty shows a starter clip from the pack until you add yours.",
+      "order": 9
+    },
+    "clip1Region": {
+      "label": "Clip 1 area",
+      "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 10
+    },
+    "clip1Label": {
+      "label": "Clip 1 name",
+      "description": "The piece's name, under the clip - the stone and the shape are what a buyer looks for. A step with neither a clip nor a name is dropped.",
+      "placeholder": "Oval & Emerald-Cut Solitaires",
+      "order": 11
+    },
+    "clip1Detail": {
+      "label": "Clip 1 detail",
+      "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+      "placeholder": "Two solitaires, just off the bench",
+      "order": 12
+    },
+    "clip1Art": {
+      "label": "Clip 1 art",
+      "description": "The illustration that stands in when the step has no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "solitaire",
+      "order": 13
+    },
+    "clip2": {
+      "label": "Clip 2",
+      "description": "A clip or a photo of the second piece, in its own rect - nothing is ever drawn over it. A clip shorter than its step loops, muted. Empty shows a starter clip from the pack until you add yours.",
+      "order": 14
+    },
+    "clip2Region": {
+      "label": "Clip 2 area",
+      "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 15
+    },
+    "clip2Label": {
+      "label": "Clip 2 name",
+      "description": "The piece's name, under the clip - the stone and the shape are what a buyer looks for. A step with neither a clip nor a name is dropped.",
+      "placeholder": "Heart-Shaped Diamond",
+      "order": 16
+    },
+    "clip2Detail": {
+      "label": "Clip 2 detail",
+      "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+      "placeholder": "Loose, ready for its setting",
+      "order": 17
+    },
+    "clip2Art": {
+      "label": "Clip 2 art",
+      "description": "The illustration that stands in when the step has no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "diamond",
+      "order": 18
+    },
+    "clip3": {
+      "label": "Clip 3",
+      "description": "A clip or a photo of the third piece, in its own rect - nothing is ever drawn over it. A clip shorter than its step loops, muted. Empty shows a starter clip from the pack until you add yours.",
+      "order": 19
+    },
+    "clip3Region": {
+      "label": "Clip 3 area",
+      "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 20
+    },
+    "clip3Label": {
+      "label": "Clip 3 name",
+      "description": "The piece's name, under the clip - the stone and the shape are what a buyer looks for. A step with neither a clip nor a name is dropped.",
+      "placeholder": "Tiger Head Cuff",
+      "order": 21
+    },
+    "clip3Detail": {
+      "label": "Clip 3 detail",
+      "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+      "placeholder": "Sculpted head, pavé-set bands",
+      "order": 22
+    },
+    "clip3Art": {
+      "label": "Clip 3 art",
+      "description": "The illustration that stands in when the step has no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "tennis",
+      "order": 23
+    },
+    "clip4": {
+      "label": "Clip 4",
+      "description": "A clip or a photo of a fourth piece. Empty by default; a clip or a name adds a fourth step and lengthens the reel. With a name and no clip, a starter clip from the pack shows until you add yours.",
+      "order": 24
+    },
+    "clip4Region": {
+      "label": "Clip 4 area",
+      "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 25
+    },
+    "clip4Label": {
+      "label": "Clip 4 name",
+      "description": "The fourth piece's name. Empty (the default) draws no fourth step unless it has a clip.",
+      "placeholder": "Gold Huggie Hoops",
+      "order": 26
+    },
+    "clip4Detail": {
+      "label": "Clip 4 detail",
+      "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+      "placeholder": "14K yellow gold, 12 mm",
+      "order": 27
+    },
+    "clip4Art": {
+      "label": "Clip 4 art",
+      "description": "The illustration that stands in when the step has a name but no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "hoops",
+      "order": 28
+    },
+    "clip5": {
+      "label": "Clip 5",
+      "description": "A clip or a photo of a fifth piece. Empty by default; a clip or a name adds a fifth step and lengthens the reel. With a name and no clip, a starter photo from the pack shows until you add yours.",
+      "order": 29
+    },
+    "clip5Region": {
+      "label": "Clip 5 area",
+      "description": "Where the clip goes, drawn on the preview: drag the rect to move it, pull a corner to resize it - the clip fills the rect at the reel's Clip fit, so a tighter rect crops it. Empty keeps its place in the layout.",
+      "order": 30
+    },
+    "clip5Label": {
+      "label": "Clip 5 name",
+      "description": "The fifth piece's name. Empty (the default) draws no fifth step unless it has a clip.",
+      "placeholder": "Gold Huggie Hoops",
+      "order": 31
+    },
+    "clip5Detail": {
+      "label": "Clip 5 detail",
+      "description": "One quiet line under the name: metal, carat, cut. Empty removes it.",
+      "placeholder": "14K yellow gold, 12 mm",
+      "order": 32
+    },
+    "clip5Art": {
+      "label": "Clip 5 art",
+      "description": "The illustration that stands in when the step has a name but no clip: solitaire, band, pendant, studs, hoops, tennis, diamond, watch or ringbox. (Drawn only if the starter pack is missing.)",
+      "placeholder": "studs",
+      "order": 33
+    },
+    "ctaLine": {
+      "label": "Closing line",
+      "description": "The line on the closing card: where to buy. \"Shop now, link in bio\" for a store, \"See the new line in person\" with a show, \"DM your sales rep for pricing\" for the trade. Empty removes it.",
+      "placeholder": "See the new line in store and online",
+      "order": 34
+    },
+    "show1Name": {
+      "label": "Show 1",
+      "description": "The first show you will be at. Empty (the default) is the shop close; a name adds the show card to the closing card, and the show band under every clip.",
+      "placeholder": "The Fall Jewelry Show",
+      "order": 35
+    },
+    "show1Dates": {
+      "label": "Show 1 dates",
+      "description": "As they should read. Empty removes them.",
+      "placeholder": "Oct 25 - 27",
+      "order": 36
+    },
+    "show1Place": {
+      "label": "Show 1 place",
+      "description": "The city or the venue. Empty removes it.",
+      "placeholder": "New York",
+      "order": 37
+    },
+    "show1Booth": {
+      "label": "Show 1 booth",
+      "description": "A number reads as \"Booth 418\"; a value that starts with a word (\"Stand 2.1/501\") stands as typed. Empty removes it.",
+      "placeholder": "418",
+      "order": 38
+    },
+    "show2Name": {
+      "label": "Show 2",
+      "description": "A second show. Empty (the default) draws one show; a second sits beside the first on a wide canvas, below it otherwise.",
+      "placeholder": "The Winter Trade Show",
+      "order": 39
+    },
+    "show2Dates": {
+      "label": "Show 2 dates",
+      "description": "As they should read. Empty removes them.",
+      "placeholder": "Jan 30 - Feb 2",
+      "order": 40
+    },
+    "show2Place": {
+      "label": "Show 2 place",
+      "description": "The city or the venue. Empty removes it.",
+      "placeholder": "Tucson",
+      "order": 41
+    },
+    "show2Booth": {
+      "label": "Show 2 booth",
+      "description": "A number reads as \"Booth 418\"; a value that starts with a word (\"Stand 2.1/501\") stands as typed. Empty removes it.",
+      "placeholder": "1207",
+      "order": 42
+    },
+    "boothStrip": {
+      "label": "Show band",
+      "description": "Run the first show (name, dates, booth) as a band in the accent under every clip, once Show 1 has a name.",
+      "order": 43
+    },
+    "clipFit": {
+      "label": "Clip fit",
+      "description": "One fit for every clip: cover (the default) crops each clip to fill its rect; contain shows all of it on the page colour - a square turntable spin on a story canvas keeps the whole piece.",
+      "placeholder": "cover",
+      "order": 44
+    },
+    "metal": {
+      "label": "Metal tone",
+      "description": "The metal the bundled illustrations are drawn in: gold, rose, white or platinum. (Drawn only if the starter pack is missing.)",
+      "placeholder": "gold",
+      "order": 45
+    },
+    "stone": {
+      "label": "Stone tone",
+      "description": "The stone the bundled illustrations are drawn with. (Drawn only if the starter pack is missing.)",
+      "placeholder": "diamond",
+      "order": 46
+    },
+    "theme": {
+      "label": "Theme",
+      "description": "ivory (warm paper, dark text: the default), noir (near-black, light text), velvet (deep blue, ivory text) or blush (rose paper, brown text). Background and Text override either half.",
+      "placeholder": "ivory",
+      "order": 47
+    },
+    "accent": {
+      "label": "Accent",
+      "description": "The brand colour as #rrggbb: the show band, the booth numbers, the rule on the closing card and the progress line.",
+      "order": 48
+    },
+    "background": {
+      "label": "Background",
+      "description": "The page colour as #rrggbb, around the clips and on the closing card. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 49
+    },
+    "ink": {
+      "label": "Text",
+      "description": "The text colour as #rrggbb. Empty takes the theme's.",
+      "placeholder": "from theme",
+      "order": 50
+    },
+    "debugLayout": {
+      "label": "Debug layout",
+      "description": "Dev-only: check the layout contract (every line fits its box, nothing over the clip) and draw it over the frame.",
+      "order": 51
+    }
+  }
+}

@@ -9,9 +9,12 @@ opened as that solution, pins this repo's URL and installs its latest **signed r
 (`bundle.json` + `runtime.tgz` + `previews.tgz` + `samples.tgz`); the solution shows these
 templates and nothing else. The founder signs and publishes releases; nobody else can.
 
-It started on 2026-10-20 with ONE template, Product Spotlight v1, to establish the upstream.
-The wider jewelry field (`m0saic_jewelry`, local, many templates) is where templates are
-developed; a template moves here when it is stable enough for every jeweler.
+It started on 2026-10-20 with ONE template, Product Spotlight v1, to establish the upstream;
+`v2026.10.1` moved it to the 0.4.0 packages, and `v2026.10.2` adds four more (Piece Reel, New
+Arrivals, Personal Pick, Window Card). The wider
+jewelry field (`m0saic_jewelry`, local, many templates) is where templates are developed; a
+template moves here when it is stable enough for every jeweler. A release cannot be taken
+back, so the set stays small on purpose: quality over quantity.
 
 ## Rules
 

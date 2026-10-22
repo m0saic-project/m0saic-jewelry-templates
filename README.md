@@ -17,6 +17,10 @@ release on its own. If you are not using it yet:
 | Template | What it makes |
 | --- | --- |
 | **Product Spotlight** (`@jewelry/social/product-spotlight/v1`) | One piece, one social ad: your photo or clip fills its side of the frame; the name, the metal and stone, the price and where to go sit beside it. Story, feed, square, landscape or email size. |
+| **Piece Reel** (`@jewelry/social/piece-reel/v1`) | Your own clips cut into a Reel: two to five clips, each in its own rect with the piece's name under it - the words never cover the piece - then a closing card with where to buy, or the show and booth where people can find you. |
+| **New Arrivals** (`@jewelry/social/new-arrivals/v1`) | The weekly drop: how many new pieces came in, when they go out, and up to four of them as one mosaic of your photos. |
+| **Personal Pick** (`@jewelry/email/personal-pick/v1`) | The newsletter hero addressed to one client: her name and her occasion, the piece you chose for her, why it is hers, and her private offer. One row of your client book, one email. |
+| **Window Card** (`@jewelry/print/window-card/v1`) | The card for the window or the case, ready to print at A7, A6 or 4x6: your photo on top, the name, the spec and the price under it. |
 
 `samples/` holds a few real jewelry photos and clips (Pexels, free for commercial use) that
 Mosaic Desktop lists first in its Files dock, so there is something to drag in before you

@@ -1,0 +1,46 @@
+{
+  "templateId": "@jewelry/social/new-arrivals/v1",
+  "note": "Rendered at the template's defaults: every image is from the @jewelry starter pack (src/_shared/assets/starter), free for commercial use, no attribution required - credited here anyway.",
+  "sources": [
+    {
+      "slot": "item1Image",
+      "starter": "ring-emerald",
+      "source": "pexels",
+      "title": "Elegant Emerald Ring with Diamond Accents",
+      "creator": "Abdulla Nasar",
+      "pageUrl": "https://www.pexels.com/photo/elegant-emerald-ring-with-diamond-accents-29495766/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    {
+      "slot": "item2Image",
+      "starter": "earrings-drops",
+      "source": "pexels",
+      "title": "Elegant Diamond and Rose Gold Teardrop Earrings",
+      "creator": "The Glorious  Studio ",
+      "pageUrl": "https://www.pexels.com/photo/elegant-diamond-and-rose-gold-teardrop-earrings-40179572/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    {
+      "slot": "item3Image",
+      "starter": "bracelet-tennis",
+      "source": "pexels",
+      "title": "Elegant Silver Bracelet on Textured Leaf",
+      "creator": "Amazing Clicks by Arjun",
+      "pageUrl": "https://www.pexels.com/photo/elegant-silver-bracelet-on-textured-leaf-33343078/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    {
+      "slot": "item4Image",
+      "starter": "necklace-bar",
+      "source": "pexels",
+      "title": "A Necklace with Diamond Studs",
+      "creator": "The Glorious  Studio ",
+      "pageUrl": "https://www.pexels.com/photo/a-necklace-with-diamond-studs-13204122/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  ]
+}
